@@ -1,0 +1,18 @@
+cs:
+  activerecord:
+    attributes:
+      dibbler/slug:
+        locale: Jazyk
+        original: Systémové URL
+        translation: Hezké URL
+        filter: Syst. zn. aplikace
+    notices:
+      models:
+        dibbler/slug:
+          create: "Překlad URL byl úspěšně vytvořen."
+          update: "Překlad URL byl úspěšně upraven."
+          destroy: "Překlad URL byl úspěšně smazán."
+    errors:
+      models:
+        dibbler/slug:
+          not_found: "Překlad URL nebyl nalezen."

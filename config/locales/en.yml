@@ -1,0 +1,18 @@
+en:
+  activerecord:
+    attributes:
+      dibbler/slug:
+        locale: Language
+        original: System URL
+        translation: Pretty URL
+        filter: Application reference
+    notices:
+      models:
+        dibbler/slug:
+          create: URL translation was successfully saved.
+          update: URL translation was successfully created.
+          destroy: URL translation was successfully deleted.
+    errors:
+      models:
+        dibbler/slug:
+          not_found: URL translation was not found.
